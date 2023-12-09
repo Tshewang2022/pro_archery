@@ -9,6 +9,7 @@ const App = () => {
         <Hero />
       </section>
       <section>
+        today i lost complete touch of my work
         <Product />
       </section>
       <section>
