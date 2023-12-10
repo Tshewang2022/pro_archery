@@ -1,4 +1,4 @@
-import Nav from "./assets/components/Nav";
+import Nav from "./components/Nav";
 import { Hero, Product, Services, Footer } from "./sections";
 
 const App = () => {
@@ -9,10 +9,9 @@ const App = () => {
         <Hero />
       </section>
       <section>
-        today i lost complete touch of my work
         <Product />
       </section>
-      <section>
+      <section className="px-8 sm:px-16 py-12 sm:py-24">
         <Services />
       </section>
       <section>
