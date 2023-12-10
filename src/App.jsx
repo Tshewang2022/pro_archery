@@ -5,11 +5,12 @@ const App = () => {
   return (
     <main className="relative bg-primary">
       <Nav />
-      <section className="">
+      <section className="px-[64px]">
         <Hero />
       </section>
-      <section>
+      <section className="px-16 text-white">
         <Product />
+        text
       </section>
       <section className="px-8 sm:px-16 py-12 sm:py-24">
         <Services />
