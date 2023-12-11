@@ -1,4 +1,5 @@
 import { brain, repairing, bow, rent } from "../assets/icons";
+import { bow2, armguard, newbow, whitebow } from "../assets/images";
 export const services = [
   {
     imgURL: bow,
@@ -23,5 +24,32 @@ export const services = [
     label: "Training",
     subtext:
       "Archery PROS have team of expert trainers for our clients. We teach basic handling of bows and arrow. With 4 months of training we aim to set you to become pro athletes",
+  },
+];
+
+export const products = [
+  {
+    imgURL: bow2,
+    description: "German made high quality bow",
+    price: "$1400",
+    piece: "2 in stock",
+  },
+  {
+    imgURL: newbow,
+    description: "Made in Japan for professionals",
+    price: "$1500",
+    piece: "4 in stock",
+  },
+  {
+    imgURL: whitebow,
+    description: "Made in USA, Equality and Endurance",
+    price: "$1200",
+    piece: "1 in stock",
+  },
+  {
+    imgURL: armguard,
+    description: "Professional armguard made of pure lather",
+    price: "$300",
+    piece: "4 in stock",
   },
 ];
