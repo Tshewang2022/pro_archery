@@ -53,3 +53,22 @@ export const products = [
     piece: "4 in stock",
   },
 ];
+
+export const navLinks = [
+  {
+    href: "#home",
+    label: "Home",
+  },
+  {
+    href: "#products",
+    label: "Products",
+  },
+  {
+    href: "#services",
+    label: "Services",
+  },
+  {
+    href: "#contact",
+    label: "Contact",
+  },
+];
