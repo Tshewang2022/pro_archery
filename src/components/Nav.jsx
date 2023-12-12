@@ -7,7 +7,7 @@ const Nav = () => {
     <header className="px-[64px] py-[40px] w-full">
       <nav className="flex max-container justify-between items-center">
         <a href="logo">
-          <img src={logo} alt="logo" width={130} height={29} />
+          <img src={logo} alt="logo" width={130} height={32} />
         </a>
         <ul className="flex-1 flex justify-end items-end gap-16 max-lg:hidden">
           {navLinks.map((link) => (
