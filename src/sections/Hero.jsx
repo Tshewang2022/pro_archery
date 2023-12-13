@@ -32,7 +32,7 @@ function Hero() {
   };
 
   return (
-    <div>
+    <div className="relative">
       <img
         className="w-full mb-[50px]"
         src={allImage[displayedImage]}
@@ -41,13 +41,13 @@ function Hero() {
         onMouseLeave={() => setIsHovered(false)}
       />
       <div
-        className="absolute left-5 top-[15%] text-2xl font-bold rounded-full text-white cursor-pointer"
+        className="absolute left-5 top-[40%] text-2xl font-bold rounded-full text-white cursor-pointer"
         onClick={handlePrevClick}
       >
         <BsChevronCompactLeft size={40} />
       </div>
       <div
-        className="absolute right-5 top-[15%] text-2xl rounded-full text-white cursor-pointer"
+        className="absolute right-5 top-[40%] text-2xl rounded-full text-white cursor-pointer"
         onClick={handleNextClick}
       >
         <BsChevronCompactRight size={40} />

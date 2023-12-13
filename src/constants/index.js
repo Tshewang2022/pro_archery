@@ -72,3 +72,9 @@ export const navLinks = [
     label: "Contact",
   },
 ];
+
+export const demos = [
+  { titles: "one" },
+  { titles: "two" },
+  { titles: "three" },
+];

@@ -5,7 +5,7 @@ const App = () => {
   return (
     <main className="relative bg-primary ">
       <Nav />
-      <section className="px-[64px]">
+      <section className="">
         <Hero />
       </section>
       <section className="px-16 text-white">

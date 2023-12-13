@@ -1,13 +1,12 @@
 import React from "react";
+import { demos } from "../constants";
 
 const Footer = () => {
   return (
     <div className="flex-1 flex flex-wrap justify-center items-center gap-4">
-      <div className="bg-green-400 w-[254px] h-[305px] ">one</div>
-      <div className="bg-green-400 w-[254px] h-[305px] ">one</div>
-      <div className="bg-green-400 w-[254px] h-[305px] ">one</div>
-      <div className="bg-green-400 w-[254px] h-[305px] ">one</div>
-      <div className="bg-green-400 w-[254px] h-[305px] ">one</div>
+      {demos.map((demo) => (
+        <div className="text-white">{demo.titles}</div>
+      ))}
     </div>
   );
 };
