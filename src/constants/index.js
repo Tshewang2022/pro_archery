@@ -1,5 +1,6 @@
 import { brain, repairing, bow, rent } from "../assets/icons";
 import { bow2, armguard, newbow, whitebow } from "../assets/images";
+import { facebook, instragram, twitter } from "../assets/icons";
 export const services = [
   {
     imgURL: bow,
@@ -73,8 +74,33 @@ export const navLinks = [
   },
 ];
 
-export const demos = [
-  { titles: "one" },
-  { titles: "two" },
-  { titles: "three" },
+export const footerLinks = [
+  {
+    title: "Products",
+    links: [
+      { name: "Shoe1", link: "/" },
+      { name: "Shoe2", link: "/" },
+      { name: "Shoe3", link: "/" },
+      { name: "Shoe4", link: "/" },
+    ],
+  },
+  {
+    title: "Help",
+    links: [
+      { name: "Our privacy policy" },
+      { name: "Our patents" },
+      { name: "Terms and services" },
+      { name: "Payment policy" },
+    ],
+  },
+  {
+    title: "Get in touch",
+    links: [{ name: "customer123@gmail.com" }, { name: "773408730840" }],
+  },
+];
+
+export const socialMedia = [
+  { src: facebook, alt: "facebook logo" },
+  { src: twitter, alt: "twitter logo" },
+  { src: instragram, alt: "instragram logo" },
 ];

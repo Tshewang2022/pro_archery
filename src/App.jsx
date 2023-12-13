@@ -14,7 +14,7 @@ const App = () => {
       <section className="px-8 sm:px-16 py-12 sm:py-24">
         <Services />
       </section>
-      <section className=" pb-5">
+      <section className=" pb-5 bg-lightBlue w-full">
         <Footer />
       </section>
     </main>
