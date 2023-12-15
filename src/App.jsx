@@ -4,6 +4,7 @@ import { Hero, Product, Services, Footer } from "./sections";
 const App = () => {
   return (
     <main className="relative bg-primary ">
+      <div className="w-[1512px] h-[1080px] bg-green-400"></div>
       <Nav />
       <section className="">
         <Hero />

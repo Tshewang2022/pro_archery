@@ -4,7 +4,10 @@ import { socialMedia } from "../constants";
 import { footerLinks } from "../constants";
 const Footer = () => {
   return (
-    <footer className="flex flex-wrap justify-start items-start max-ls:flex-col gap-4 py-10">
+    <footer
+      className="flex flex-wrap justify-start items-start max-ls:flex-col gap-4 py-10"
+      id="contact"
+    >
       <div className="flex flex-col justify-start items-start px-8">
         <img src={logo} alt="logo" width={124} height={32} />
         <p className="text-white sm:max-w-sm">
